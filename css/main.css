@@ -13,6 +13,10 @@ div {
   vertical-align: middle;
 }
 
+div:nth-of-type(2) {
+  text-align: left;
+}
+
 img {
   display: block;
   width: 100%;
@@ -31,6 +35,7 @@ a {
   padding: .75em;
   border-radius: 10px;
   font-weight: bold;
+  text-align: left;
 }
 
 a:hover {
@@ -43,4 +48,14 @@ p {
   padding-bottom: 1em;
   font-weight: bold;
   line-height: 1.5;
+  text-align: left;
+}
+
+h2 {
+  margin: 0;
+
+}
+
+section {
+  text-align: center;
 }
